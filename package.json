@@ -4,18 +4,20 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "nodemon --exec ts-node --files src/index.ts"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "apollo-server-express": "^2.19.1",
     "bcryptjs": "^2.4.3",
+    "connect-redis": "^5.0.0",
     "connect-sqlite3": "^0.9.11",
     "express": "^4.17.1",
     "express-session": "^1.17.1",
     "graphql": "^15.4.0",
     "pg": "^8.5.1",
+    "redis": "^3.0.2",
     "reflect-metadata": "^0.1.13",
     "sqlite3": "^5.0.0",
     "type-graphql": "^1.1.1",
